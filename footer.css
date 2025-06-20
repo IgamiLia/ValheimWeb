@@ -1,0 +1,54 @@
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 4rem;
+  padding-bottom: 10em;
+}
+
+.btn-runa {
+  font-family: 'Cinzel', serif;
+  font-size: 1.7rem;
+  text-decoration: none;
+  padding: 1rem 2.5rem;
+  color: #e6d8c3;
+  background: transparent;
+  border: 2px solid #e0c084;
+  border-radius: 8px;
+  text-shadow: 1px 1px 3px #000;
+  box-shadow: 0 0 12px rgba(224, 192, 132, 0.3);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-runa:hover {
+  background: linear-gradient(135deg, #e0c084, #8b6b32);
+  color: #1b0c08;
+  box-shadow: 0 0 20px rgba(224, 192, 132, 0.5);
+  text-shadow: none;
+}
+
+footer {
+    display: block;
+    justify-content: center;
+    width: 100%;
+}
+
+.h3 {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    color: transparent;
+    -webkit-text-stroke: 1px #b4974c
+}
+
+.linea-runa-footer {
+  border: none;
+  height: 2px;
+  width: 75%;
+  margin: 1.5rem auto 0;
+  background: linear-gradient(to right, transparent, #b4974c, transparent);
+}

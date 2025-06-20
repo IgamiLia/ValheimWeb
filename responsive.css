@@ -1,0 +1,83 @@
+@media (max-width: 768px) {
+
+  /* main.css */
+  .sec {
+    padding: 100px 20px;
+    gap: 5em;
+  }
+
+  .content {
+    flex-direction: column !important;
+    gap: 2rem;
+  }
+
+  .img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  .sec p {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.8em;
+    padding: 0.5em;
+    -webkit-text-stroke: 1px #b4974c;
+  }
+
+  .sps {
+    font-size: 3em;
+    text-align: center;
+  }
+
+  /* overlay.css */
+  #question {
+    font-size: 2em;
+    padding: 1rem;
+  }
+
+  /* footer.css */
+  .redes {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .btn-runa {
+    font-size: 1.2rem;
+    padding: 0.8rem 2rem;
+    text-align: center;
+  }
+
+  .h3 {
+    font-size: 1.5rem;
+  }
+
+  .linea-runa-footer {
+    width: 90%;
+  }
+
+  /* index.css */
+  #banner {
+    height: 20vh;
+    background-size: cover;
+  }
+
+  #sec1 {
+    width: 80vw;
+    height: 70vh;
+    top: 5vh;
+  }
+
+  /* #logo {
+    height: auto;
+  } */
+/* 
+  #valheim {
+    top: 90%;
+    width: 100%;
+    height: auto;
+  } */
+}

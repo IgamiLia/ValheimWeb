@@ -1,0 +1,38 @@
+#overlay {
+    margin-top: 30vh;
+    height: 200vh;
+    width: 100vw;
+    position: relative;
+    inset: 0;
+    background: rgba(0, 0, 0, 1); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%);
+    visibility: hidden;
+    transition: visibility 0.3s ease-in-out;
+}
+
+#question {
+    position: absolute;
+    font-size: 3em;
+    opacity: 1;
+    text-align: center;
+    background: linear-gradient(180deg, #ffffff 60%, #000000);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 
+        0 5px 15px rgba(255, 255, 255, 0.3),
+        0 6px 5px rgba(255, 255, 255, 0.2);
+}
+
+.linea-runa {
+  border: none;
+  height: 2px;
+  width: 100%;
+  margin: 1.5rem auto 0;
+  background: linear-gradient(to right, transparent, #ffffff, transparent);
+}
+
