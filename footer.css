@@ -20,6 +20,8 @@
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
+  width: 300px;
+  text-align: center;
 }
 
 .btn-runa:hover {
