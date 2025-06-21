@@ -7,16 +7,24 @@
   padding: 0;
   box-sizing: border-box;
 }
-html, body {
-  height: 120%;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+  position: relative;
   font-family: "Book Antiqua", sans-serif;
-  background: rgba(0, 0, 0, .5) url(./Images/background.webp) no-repeat center center / cover fixed;
-  background-blend-mode: multiply;
+  background: none;
+  overflow-x: hidden;
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, .5) url(./Images/background.webp) no-repeat center center / cover;
+  background-blend-mode: multiply;
+  z-index: -1;
+}
 
 html{
     height: auto;
