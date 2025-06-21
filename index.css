@@ -10,7 +10,7 @@
   font-family: "Book Antiqua", sans-serif;
   background: rgba(0, 0, 0, .5) url(./Images/background.webp) no-repeat center center / cover fixed;
   background-blend-mode: multiply;
-  
+  background-color: #1a0c0c;
 }
 
 
