@@ -44,8 +44,6 @@
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
-    width: 200px;
-    margin: 70px auto;
   }
 
   .btn-runa {
@@ -53,7 +51,7 @@
     padding: 0.8rem 2rem;
     text-align: center;
     max-width: 200px;
-    width: 100%;
+    width: 250px;
   }
 
   .h3 {
