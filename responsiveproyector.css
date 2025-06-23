@@ -24,7 +24,7 @@
 
   .img {
     width: 100vw;
-    min-width: 40vw;
+    min-width: 20vw;
     height: 70vh;
     border-radius: 80px;
   }
