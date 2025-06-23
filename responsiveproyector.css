@@ -1,98 +1,66 @@
-@media (min-width: 769px) and (max-width: 1280px) {
-
+@media (min-width: 1360px) and (max-width: 1370px) and (max-height: 770px) {
+  /* Ajustes generales */
   body {
-    font-size: 13px;
-    overflow-x: hidden;
-  }
-
-  .sps {
-    font-size: 2em;
-    text-align: center;
+    font-size: 1rem;
+    padding: 0;
   }
 
   .main {
-    margin-top: 30vh;
+    margin-top: 45vh;
+  }
+
+  .sps {
+    font-size: 4.5em;
   }
 
   .sec {
-    padding: 60px 15px;
-    gap: 3em;
+    padding: 200px 60px 80px 60px;
+    gap: 8em;
   }
 
   .content {
-    flex-direction: column !important;
-    gap: 1rem;
-    align-items: center;
+    gap: 6rem;
   }
 
   .img {
-    width: 95vw;
-    height: auto;
-    border-radius: 20px;
-    mask-image: none;
-    -webkit-mask-image: none;
+    width: 100vw;
+    height: 70vh;
+    border-radius: 80px;
   }
 
   .sec p {
-    font-size: 1.1rem;
-    text-align: center;
-    padding: 0.5em;
-    line-height: 1.5em;
-    -webkit-text-stroke: 0.5px #b4974c;
+    font-size: 2.2rem;
+    line-height: 1.8em;
+    padding: 0.8em;
   }
 
+  /* Encabezado */
   #banner {
-    height: 20vh;
-    object-fit: cover;
+    height: 28vh;
   }
 
   #sec1 {
-    width: 90vw;
-    height: 40vh;
-    top: 4vh;
+    width: 28vw;
+    height: 45vh;
+    top: 6vh;
   }
 
-  #valheim {
-    top: 82%;
-    width: 100%;
-    height: auto;
-    transform: translate(-50%, -50%);
-  }
-
-  #overlay {
-    margin-top: 20vh;
-    height: auto;
-    padding: 2em;
-  }
-
+  /* Overlay */
   #question {
-    font-size: 1.4em;
-    padding: 0.5em;
+    font-size: 2.5em;
   }
 
+  /* Footer */
   .btn-runa {
-    font-size: 1rem;
-    padding: 0.7rem 1.5rem;
-    width: 90%;
-    max-width: 300px;
+    font-size: 1.5rem;
+    padding: 0.9rem 2.3rem;
   }
 
   .h3 {
-    font-size: 1.1rem;
-    padding: 0 1rem;
+    font-size: 1.6rem;
   }
 
   .linea-runa-footer {
     width: 85%;
-  }
-
-  footer {
-    padding-top: 3em;
-  }
-
-  .redes {
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
   }
 }
