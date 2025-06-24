@@ -1,10 +1,20 @@
 @media (min-width: 1200px) and (max-width: 1370px) and (max-height: 770px) {
- .sec p {
+ .content{
+    gap: 5rem;
+ }
+ 
+    .sec p {
   line-height: 2em;
   font-size: 2rem;
+  padding: 0;
  }
 
  .img {
   width: 150vw;
+  min-width: 40vw;
+
+ }
+ .linea-runa-footer{
+    width: 100%;
  }
 }

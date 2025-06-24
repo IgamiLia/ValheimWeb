@@ -28,11 +28,12 @@
   gap: 10em;
   width: 100%;
   padding: 300px 100px 100px 100px;
-  min-height: 100vh;
+  min-height: 100vh;    
 }
 
 .img{
     width: 150vw;
+    min-width: 40vw;
     height: 80vh;
     border-radius: 100px;
     -webkit-mask-image:     linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%),    linear-gradient(to right,  transparent 0%, black 15%, black 85%, transparent 100%);
