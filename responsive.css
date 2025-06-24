@@ -13,6 +13,7 @@
 
   .img {
     width: 100%;
+    max-width: 80vw;
     height: 50vh;
     border-radius: 30px;
   }
