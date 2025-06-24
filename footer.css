@@ -7,6 +7,7 @@
 }
 
 .btn-runa {
+  cursor: url("./Images/cursor_odal_golden_solid.cur") 9 8, auto;
   font-family: 'Cinzel', serif;
   font-size: 1.7rem;
   text-decoration: none;
