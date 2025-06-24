@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 body {
-  cursor: url("./Images/cursor_odal_golden_bright.cur") 9 5, auto;
+  cursor: url("./Images/cursor_odal_golden_solid.cur") 9 8, auto;
   position: relative;
   font-family: "Book Antiqua", sans-serif;
   background: none;
