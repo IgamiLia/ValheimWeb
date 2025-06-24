@@ -2,4 +2,9 @@
  .sec p {
   line-height: 2em;
   font-size: 2rem;
+ }
+
+ .img {
+  width: 150vw;
+ }
 }
