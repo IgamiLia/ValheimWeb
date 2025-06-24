@@ -40,6 +40,8 @@
     -webkit-mask-composite: intersect;
     mask-image:     linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%),    linear-gradient(to right,  transparent 0%, black 15%, black 85%, transparent 100%);
     mask-composite: intersect;
+    max-height: 60rem;
+    aspect-ratio: 1/1;
 }
 
 
