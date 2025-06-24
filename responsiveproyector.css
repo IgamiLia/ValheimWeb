@@ -17,4 +17,9 @@
  .linea-runa-footer{
     width: 100%;
  }
+  #sec1{
+    width: 40vw;
+    height: auto;
+    aspect-ratio: 1/1;
+ }
 }
